@@ -1,0 +1,24 @@
+
+Local i, n
+
+ClrText
+
+For 0⇒i to n
+  
+  If (Frac(i/15) = 0)
+  Then
+    Print "FizzBuzz"
+  
+  ElseIf (Frac(i/3) = 0)
+  Then
+    Print "Fizz"
+  
+  ElseIf (Frac(i/5) = 0)
+  Then
+    Print "Buzz"
+   
+  Else
+    Print i
+  IfEnd
+  
+Next
