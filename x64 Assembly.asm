@@ -5,8 +5,8 @@ endLine proto C     ; Defined below
 
 .code
 
-asmModulo proc	; RCX: Quotient
-				; RDX: Divisor
+asmModulo proc		; RCX: Quotient
+			; RDX: Divisor
 Comp:
 	cmp rcx, rdx
 	jl Less
