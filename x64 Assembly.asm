@@ -76,7 +76,7 @@ end
 ;
 ;   extern "C" void printNum(int Num)
 ;   {
-;     std::cout << Num;
+;	    std::cout << Num;
 ;   }
 ;
 ;   extern "C" void endLine()
